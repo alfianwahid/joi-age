@@ -4,7 +4,7 @@ Joi extension for age validation.
 
 This Joi extension is extended from `Joi.date()` base. So, the schema can be constructed using `Joi.date().minAge(18).maxAge(90)`.
 
-### Why not using `max(), .min(), .less(), .greater()` for age validation?
+### Why not using `.max(), .min(), .less(), .greater()` for age validation?
 
 For example
 
@@ -12,7 +12,7 @@ For example
 // 18 year ago from "now"
 const date18YearsAgo = new Date(Date.now() - 1000 * 60 * 60 * 24 * 365 * 18);
 // try to validate the age larger than or equal to 18 years old
-const ageSchema = Joi.max(date18YearsAgo);
+const ageSchema = Joi.date().max(date18YearsAgo);
 
 ageSchema.validate("2002-02-22");
 // with same input "2002-02-22" as birthdate with different time to validate.
@@ -22,7 +22,7 @@ ageSchema.validate("2002-02-22");
 
 Running this on server side to validate min 18 years old, it doesn't move dynamically as time passes.
 
-**Note**: This Joi extension disable some default function date, `.min(), max(), .less(), .greater()` for avoid ambiguity validation error message.
+**Note**: This Joi extension disable some default function date, `.max(), .min(), .less(), .greater()` for avoid ambiguity validation error message.
 
 ## Compatibility
 
