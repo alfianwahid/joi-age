@@ -1,5 +1,7 @@
 # joi-age
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/alfianwahid/joi-age.svg)](https://greenkeeper.io/)
+
 Joi extension for age validation.
 
 This Joi extension is extended from `Joi.date()` base. So, the schema can be constructed using `Joi.date().minAge(18).maxAge(90)`.
