@@ -16,7 +16,7 @@
   "devDependencies": {
     "@hapi/code": "^7.0.0",
     "@hapi/joi": "^16.1.8",
-    "@hapi/lab": "^21.0.0"
+    "@hapi/lab": "^22.0.1"
   },
   "scripts": {
     "test": "lab -v -t 100 -a @hapi/code -L",
