@@ -14,7 +14,7 @@
     "moment": "^2.24.0"
   },
   "devDependencies": {
-    "@hapi/code": "^7.0.0",
+    "@hapi/code": "^8.0.0",
     "@hapi/joi": "^16.1.8",
     "@hapi/lab": "^21.0.0"
   },
