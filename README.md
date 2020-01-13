@@ -28,7 +28,8 @@ Running this on server side to validate min 18 years old, it doesn't move dynami
 
 ## Compatibility
 
-This requires Joi v16 or newer.
+- This requires Joi v17 or newer.
+
 If you are not familiar with Joi, you should read [Joi Documentation and API](https://hapi.dev/family/joi/)
 
 ## Installation

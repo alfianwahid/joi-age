@@ -1,7 +1,7 @@
 {
   "name": "joi-age",
   "description": "Joi extension for age validation",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "repository": "git://github.com/alfianwahid/joi-age",
   "main": "lib/index.js",
   "keywords": [
@@ -14,9 +14,9 @@
     "moment": "^2.24.0"
   },
   "devDependencies": {
-    "@hapi/code": "^7.0.0",
-    "@hapi/joi": "^16.1.8",
-    "@hapi/lab": "^21.0.0"
+    "@hapi/code": "^8.0.1",
+    "@hapi/joi": "^17.0.2",
+    "@hapi/lab": "^22.0.3"
   },
   "scripts": {
     "test": "lab -v -t 100 -a @hapi/code -L",
